@@ -1,0 +1,24 @@
+header {
+  grid-area: h;
+  background-color: #8e9b97;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  display: block;
+  margin: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.link:hover {
+  font-weight: bold;
+}

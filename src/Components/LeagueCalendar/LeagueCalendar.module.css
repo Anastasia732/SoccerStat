@@ -1,0 +1,75 @@
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+.table td {
+  border-bottom: 1px solid #dddddd;
+  padding: 5px;
+  width: 10%;
+  text-align: center;
+}
+
+@media (min-width: 1920px) {
+  .table td {
+    border-bottom: 2px black solid;
+    border-right: 1px gray solid;
+    width: 300px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .table td {
+    border-bottom: 2px black solid;
+    border-right: 1px gray solid;
+    width: 300px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .table td {
+    border-bottom: 2px black solid;
+    border-right: 1px gray solid;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 20px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .table td {
+    border-bottom: 2px black solid;
+    border-right: 1px gray solid;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .table td {
+    border-bottom: 2px black solid;
+    border-right: 1px gray solid;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}

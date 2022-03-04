@@ -1,0 +1,70 @@
+.teamCelendarTable {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+.teamCelendarTable td {
+  border-bottom: 1px solid #dddddd;
+  padding: 5px;
+  width: 10%;
+  text-align: center;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+@media (min-width: 1920px) {
+  .teamCelendarTable td  {
+    border-bottom: 2px black solid;
+    border-right: 1px gray solid;
+    width: 300px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .teamCelendarTable td  {
+    border-bottom: 2px black solid;
+    border-right: 1px gray solid;
+    width: 300px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .teamCelendarTable td  {
+    border-bottom: 2px black solid;
+    border-right: 1px gray solid;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 20px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .teamCelendarTable td  {
+    border-bottom: 2px black solid;
+    border-right: 1px gray solid;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .teamCelendarTable td  {
+    border-bottom: 2px black solid;
+    border-right: 1px gray solid;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}
